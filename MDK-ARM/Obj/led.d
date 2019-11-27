@@ -1,0 +1,12 @@
+.\obj\led.o: ..\Drivers\led.c
+.\obj\led.o: ..\Drivers\led.h
+.\obj\led.o: ..\USER\sys.h
+.\obj\led.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\obj\led.o: ..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\obj\led.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\led.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\obj\led.o: ..\USER\stm32f10x_conf.h
+.\obj\led.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\led.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\obj\led.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\led.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
