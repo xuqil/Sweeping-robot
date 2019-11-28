@@ -20,3 +20,4 @@
 .\obj\main.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\obj\main.o: ..\Drivers\usart.h
 .\obj\main.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: ..\Drivers\ultrasonic.h
