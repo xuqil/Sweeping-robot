@@ -538,11 +538,6 @@
               <FileType>1</FileType>
               <FilePath>..\Drivers\ultrasonic.c</FilePath>
             </File>
-            <File>
-              <FileName>timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Drivers\timer.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>

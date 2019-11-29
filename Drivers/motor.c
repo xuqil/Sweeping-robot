@@ -105,4 +105,3 @@ void stod_init(void)
 		TIM_SetCompare4(TIM3,10);
 
 }
-
