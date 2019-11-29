@@ -105,3 +105,58 @@ void stod_init(void)
 		TIM_SetCompare4(TIM3,10);
 
 }
+
+
+void run_init_pwm(int l, int r)
+{
+        
+	  TIM_SetCompare1(TIM3,10);//×óPA6
+		TIM_SetCompare2(TIM3,l);//PA7
+	
+	  TIM_SetCompare3(TIM3,10);//PB0
+		TIM_SetCompare4(TIM3,r);//PB1
+}
+
+
+void right_init_pwm(int l, int r)
+{
+
+    TIM_SetCompare1(TIM3,10);
+		TIM_SetCompare2(TIM3,l);
+	
+	  TIM_SetCompare3(TIM3,r);
+		TIM_SetCompare4(TIM3,10);
+
+}
+
+void left_init_pwm(int l, int r)
+{
+    TIM_SetCompare1(TIM3,l);//×ó
+		TIM_SetCompare2(TIM3,10);
+	
+	  TIM_SetCompare3(TIM3,10);
+		TIM_SetCompare4(TIM3,r);
+}
+
+void back_init_pwm(int l, int r)
+{
+ 
+	  TIM_SetCompare2(TIM3,10);//×ó
+		TIM_SetCompare1(TIM3,l);
+	
+	  TIM_SetCompare4(TIM3,10);
+		TIM_SetCompare3(TIM3,r);
+
+}
+
+void stod_init_pwm(void)
+{
+
+
+	  TIM_SetCompare1(TIM3,10);//×ó
+		TIM_SetCompare2(TIM3,10);
+	
+	  TIM_SetCompare3(TIM3,10);
+		TIM_SetCompare4(TIM3,10);
+
+}

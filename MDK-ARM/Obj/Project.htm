@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Obj\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Obj\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Fri Nov 29 15:07:56 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Fri Nov 29 16:18:15 2019
 <BR><P>
 <H3>Maximum Stack Usage =        128 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -771,34 +771,34 @@ Global Symbols
 
 <P><STRONG><a name="[a4]"></a>TIM_SetCompare1</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_SetCompare1))
 <BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stod_init
-<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init
-<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init_pwm
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init_pwm
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init_pwm
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init_pwm
 </UL>
 
 <P><STRONG><a name="[a3]"></a>TIM_SetCompare2</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_SetCompare2))
 <BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stod_init
-<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init
-<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init_pwm
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init_pwm
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init_pwm
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init_pwm
 </UL>
 
 <P><STRONG><a name="[a6]"></a>TIM_SetCompare3</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_SetCompare3))
 <BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stod_init
-<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init
-<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init_pwm
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init_pwm
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init_pwm
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init_pwm
 </UL>
 
 <P><STRONG><a name="[a5]"></a>TIM_SetCompare4</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_SetCompare4))
 <BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stod_init
-<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init
-<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init_pwm
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init_pwm
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init_pwm
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init_pwm
 </UL>
 
 <P><STRONG><a name="[6b]"></a>TIM_SetCounter</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_tim.o(i.TIM_SetCounter))
@@ -957,8 +957,8 @@ Global Symbols
 
 <P><STRONG><a name="[c9]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
 
-<P><STRONG><a name="[a2]"></a>back_init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, motor.o(i.back_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = back_init
+<P><STRONG><a name="[a2]"></a>back_init_pwm</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, motor.o(i.back_init_pwm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = back_init_pwm
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare4
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare3
@@ -996,8 +996,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MiddleValueFilter
 </UL>
 
-<P><STRONG><a name="[ab]"></a>left_init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, motor.o(i.left_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = left_init
+<P><STRONG><a name="[ab]"></a>left_init_pwm</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, motor.o(i.left_init_pwm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = left_init_pwm
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare4
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare3
@@ -1007,19 +1007,19 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[46]"></a>main</STRONG> (Thumb, 248 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[46]"></a>main</STRONG> (Thumb, 670 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = main &rArr; HC05_Init &rArr; USART2_Init &rArr; UART_DMA_Config &rArr; DMA_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ultrasonic_Init
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_init
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;u2_printf
 <LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stod_init
-<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init
-<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init
-<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;run_init_pwm
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;right_init_pwm
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;left_init_pwm
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;back_init_pwm
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2uiz
 <LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2iz
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM3_PWM_Init
@@ -1031,8 +1031,8 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
-<P><STRONG><a name="[b1]"></a>right_init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, motor.o(i.right_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = right_init
+<P><STRONG><a name="[b1]"></a>right_init_pwm</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, motor.o(i.right_init_pwm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = right_init_pwm
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare4
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare3
@@ -1042,8 +1042,8 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[b0]"></a>run_init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, motor.o(i.run_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = run_init
+<P><STRONG><a name="[b0]"></a>run_init_pwm</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, motor.o(i.run_init_pwm))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = run_init_pwm
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare4
 <LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare3

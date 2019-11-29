@@ -14,5 +14,8 @@ void right_init(void);
 void left_init(void);
 void back_init(void);
 void stod_init(void);
-
+void run_init_pwm(int l, int r);
+void right_init_pwm(int l, int r);
+void left_init_pwm(int l, int r);
+void back_init_pwm(int l, int r);
 #endif
